@@ -1,3 +1,3 @@
-facter.add('whichjava') do
+Facter.add('whichjava') do
   setcode 'which java'
 end
